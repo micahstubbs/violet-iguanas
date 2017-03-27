@@ -1,4 +1,4 @@
-an [es2015](https://babeljs.io/learn-es2015/) iteration on the block [Fibonacci sphere quasi-random radome](https://bl.ocks.org/Fil/955da86d6a935b26d3599ca5e344fb38) from [@recifs](https://twitter.com/recifs)
+a tiny example that fits inside of a 22px by 142px space
 
 --- 
 
