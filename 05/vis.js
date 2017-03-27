@@ -100,13 +100,15 @@ d3.interval((el) => {
 
 
 function redraw() {
-  const manualTweakConstant = 19;
+  const manualTweakConstant = -220;
   const globalXOffset = (-1 * (width / 2)) + manualTweakConstant;
   polygon = polygon.call(redrawPolygon);
   d3.select('g.polygons')
     .attr('transform', `translate(${globalXOffset},${0})`);
   d3.select('g.points')
     .attr('transform', `translate(${globalXOffset},${0})`);
+  svg
+    .attr('viewBox', '0 0 500 500');
 }
 
 function redrawPolygon(polygon) {

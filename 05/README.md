@@ -1,4 +1,4 @@
-an iteration that fits the sphere into a 500px by 500px square
+a tiny example that fits inside of a 22px by 142px space, or more specifically, a 22px by 22px square
 
 --- 
 
