@@ -85,7 +85,9 @@ const points = svg.append('g')
   .attr('d', d => path({
     type: 'Point',
     coordinates: d,
-  }));
+  }))
+  .style('fill-opacity', 0)
+  .style('stroke-opacity', 0);
 
 redraw();
 
