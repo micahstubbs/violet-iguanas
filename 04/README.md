@@ -1,4 +1,4 @@
-an iteration that make the site points invisible.  shifting from algovis to data art.
+a tiny example that fits inside of a 22px by 142px space
 
 --- 
 
