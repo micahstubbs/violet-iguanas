@@ -1,5 +1,4 @@
-a tiny example that fits inside of a 142px by 22px space, or more specifically, a 22px by 22px square
-
+an iteration that fills the inside of a 142px by 22px space 
 --- 
 
 Uses `geoVoronoi` to compute triangles from a set of points on the sphere.
