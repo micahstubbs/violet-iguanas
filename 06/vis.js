@@ -100,7 +100,7 @@ d3.interval((el) => {
 
 
 function redraw() {
-  const manualTweakConstant = -220;
+  const manualTweakConstant = -160;
   const globalXOffset = (-1 * (width / 2)) + manualTweakConstant;
   polygon = polygon.call(redrawPolygon);
   d3.select('g.polygons')
@@ -108,7 +108,8 @@ function redraw() {
   d3.select('g.points')
     .attr('transform', `translate(${globalXOffset},${0})`);
   svg
-    .attr('viewBox', '0 0 500 500');
+    .attr('viewBox', '0 0 500 500')
+    .attr('preserveAspectRatio', 'xMidYMid slice');
 }
 
 function redrawPolygon(polygon) {

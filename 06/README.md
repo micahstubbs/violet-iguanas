@@ -1,4 +1,4 @@
-an iteration that fills the inside of a 142px by 22px space 
+an iteration that fills the inside of a 142px by 22px space. think of this as banner mode. data art.
 --- 
 
 Uses `geoVoronoi` to compute triangles from a set of points on the sphere.
